@@ -1,0 +1,87 @@
+/* CSS with updated styling */
+
+/* Reset default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #1a1a1a; /* Dark grey background */
+  color: #ffffff; /* White text */
+  min-height: 100vh;
+  position: relative;
+}
+
+/* Header and footer styles */
+header, footer {
+  background-color: #ffffff; /* White background */
+  color: #1a1a1a; /* Dark grey text */
+  padding: 20px 0;
+  text-align: center;
+}
+
+/* Navbar styles */
+.navbar-custom {
+  background-color: #4d4d4d; /* Dark grey navbar background */
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-nav .nav-link {
+  color: #ffffff; /* White navbar text */
+}
+
+.navbar-custom .navbar-nav .nav-link:hover {
+  color: #d2b589; /* Gold color on hover */
+}
+
+/* Section styles */
+.section {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.section__title, .section__subtitle {
+  color: #d2b589; /* Gold section title/subtitle color */
+}
+
+/* Container styles */
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* Hobby card styles */
+.hobby-card {
+  background-color: #4d4d4d; /* Dark grey card background */
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.hobby-card h3 {
+  color: #d2b589; /* Gold color for card titles */
+  margin-bottom: 10px;
+}
+
+.hobby-card p {
+  color: #ffffff; /* White color for card text */
+}
+
+.hobby-card img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+/* Footer styles */
+footer {
+  background-color: #1a1a1a; /* Dark grey footer background */
+  color: #ffffff; /* White footer text */
+  padding: 20px 0;
+  text-align: center;
+}
